@@ -1,0 +1,15 @@
+{
+  "name": "ai-agent-groq",
+  "version": "1.0.0",
+  "main": "src/agent.js",
+  "type": "module",
+  "license": "ISC",
+  "scripts": {
+    "dev": "node src/agent.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "groq-sdk": "^0.37.0",
+    "pg": "^8.20.0"
+  }
+}

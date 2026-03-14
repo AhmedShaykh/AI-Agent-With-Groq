@@ -1,0 +1,13 @@
+CREATE TABLE expenses (
+    id SERIAL PRIMARY KEY,
+    name TEXT NOT NULL,
+    amount NUMERIC NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE incomes (
+    id SERIAL PRIMARY KEY,
+    name TEXT NOT NULL,
+    amount NUMERIC NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
